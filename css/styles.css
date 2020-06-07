@@ -1,1 +1,83 @@
-/*  */
+/* цвет вторичного текста #2196F3;*/
+/* цвет основного текста #757575; */
+/* доп. цвет для заоголвков #212121 */
+/* цвет лого #000000; */
+/* цвет текста героя и кнопок #FFFFFF */
+/* неповторимый цвет rgba(255, 255, 255, 0.6); */
+
+:root {
+  --primary-text-color: #2196f3;
+  --title-text-color: #212121;
+  --main-text: #757575;
+  --accent-color: #ffffff;
+  --logo-color: #000000;
+  --unique-color: rgba(255, 255, 255, 0.6);
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-web {
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.logo-studio {
+  color: var(--logo-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.paragraph {
+  color: var(--title-text-color);
+}
+
+.paragraph:hover,
+.paragraph:focus {
+  color: var(--primary-text-color);
+}
+
+.main-title {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--accent-color);
+}
+
+.frame-button {
+  background: #2196f3;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.subtitle {
+  color: var(--main-text);
+}
+
+.submain-title {
+  color: var(--title-text-color);
+}
+
+.name-work {
+  color: var(--accent-color);
+}
+
+.title-white {
+  color: var(--accent-color);
+}
+
+.unique {
+  color: var(--unique-color);
+}
